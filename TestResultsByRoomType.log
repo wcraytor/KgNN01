@@ -1,0 +1,30 @@
+Test Results by Room Type - 2025-09-20 15:24:20
+============================================================
+Overall Test Accuracy: 87.29%
+
+Per-Room Test Accuracy:
+----------------------------------------
+Room Type       Correct  Total    Accuracy  
+----------------------------------------
+bathroom        106      111      95.50     %
+bedroom         151      162      93.21     %
+dining          158      177      89.27     %
+gaming          216      227      95.15     %
+kitchen         164      181      90.61     %
+laundry         218      238      91.60     %
+living          154      175      88.00     %
+office          155      186      83.33     %
+terrace         136      182      74.73     %
+yard            156      210      74.29     %
+
+Room Performance Summary:
+------------------------------
+Best performing rooms:
+  bathroom: 95.50%
+  gaming: 95.15%
+  bedroom: 93.21%
+
+Worst performing rooms:
+  office: 83.33%
+  terrace: 74.73%
+  yard: 74.29%
