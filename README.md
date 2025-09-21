@@ -1,4 +1,10 @@
-# Room Classification with PyTorch
+## PRELIMINARY NOTES AND BACKGROUND
+
+- This is a Kaggle Jupyter and Python project, which is part of a network of open source dealing with "Valuation Engineering."
+- For contextual background; ["Residual Constraint Approach"](https://doi.org/10.5281/zenodo.14787917)
+- Craytor, William B. (2025). Residual Constraint Approach (RCA). Zenodo. DOI:  [10.5281](https://doi.org/10.5281/zenodo.14787917[](https://doi.org/10.1000/182))(https://doi.org/10.5281/zenodo.14787917)
+
+## Room Classification with PyTorch
 
 A deep learning-based room type classification system that identifies 10 different interior room types from photographs using transfer learning and computer vision techniques.
 
