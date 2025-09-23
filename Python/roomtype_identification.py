@@ -1,4 +1,5 @@
-# MUST BE FIRST - Comprehensive SSL fix for PyTorch model downloads
+# For comments, refer to the Jupyter version under the notebooks folder.
+
 import ssl
 import urllib.request
 import certifi
@@ -662,7 +663,7 @@ def evaluate_model_and_save_results(model, test_loader, dataset_manager, device,
         room_results_lines.append(f"  {room}: {acc:.2f}%")
 
     # Save room-specific results
-    with open('TestResultsByRoomType.log', 'w') as f:
+    with open('../TestResultsByRoomType.log', 'w') as f:
         f.write('\n'.join(room_results_lines))
 
     print("Per-room test results saved to TestResultsByRoomType.log")
@@ -765,7 +766,7 @@ def train_room_classifier(base_path='images', dataset_size='full', epochs=20, ba
     print("\nEvaluating on test set...")
     test_acc = evaluate_model_and_save_results(
         model, dataloaders['test'], dataset_manager, device,
-        save_path='room_classification_results.txt'
+        save_path='../room_classification_results.txt'
     )
 
     # Plot training history
