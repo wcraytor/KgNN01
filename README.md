@@ -263,7 +263,7 @@ train_room_classifier(
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](https://claude.ai/chat/LICENSE) file for details.
+This project is licensed under the GPL v3.0 - see the [LICENSE](https://claude.ai/chat/LICENSE) file for details.
 
 ## Acknowledgments
 
